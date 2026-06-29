@@ -1,0 +1,161 @@
+
+  .content{
+    text-align: center;
+    color: black;
+    background-color: antiquewhite;
+    padding: 0px;
+  }
+  .content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    color:darkgoldenrod ;
+    margin-top: 2px;
+    margin-bottom: 12px;
+  }
+  .my-skill-section{
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 24px;
+  }
+  .my-skill-section h2{
+    color: darkgoldenrod;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .skill{
+    margin-bottom: 20px;
+  }
+  .skill-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .bar{
+    background: palegreen;
+    border-radius: 999px;
+    height: 12px;
+    overflow: hidden;
+
+  }
+.bar-fill{
+  height: 100%;
+  border-radius: 999px;
+}
+.bar-fill.html{
+  background: rgb(255, 81, 0);
+}
+.bar-fill.css{
+  background: rgba(216, 112, 129, 0.913);
+}
+.bar-fill.java-script{
+  background: rgb(47, 106, 255);
+}
+.bar-fill.github{
+  background: rgb(225, 0, 255);
+}
+#education{
+  border-left: 2px;
+  color: darkgoldenrod;
+  padding: 28px;
+  align-items: center;
+  justify-content: center;
+
+}
+#education h3{
+  color: black;
+  margin-top: 20px;
+}
+#education h2{
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 60px;
+  height: 100%;
+  
+}
+.edu-card{
+  border: 1.2px solid darkblue;
+  border-radius: 20px;
+ box-shadow: 0 2px rgb(135, 222, 136);
+ background-color: bisque;
+}
+.edu-card p{
+  color:red;
+  font-style: italic;
+  padding: 2px 4px;
+  border-radius: 4px;
+  
+
+}
+#services{
+  padding: 2px 4px;
+  text-align: center;
+}
+#services h2{
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+}
+#services p{
+  color: darkgoldenrod;
+}
+.service-grid{
+  display: block;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin:0 auto;
+ 
+}
+.service-card{
+  background-color: bisque;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px rgb(135, 222, 136);
+  max-height: 500px;
+  border: 1.2px solid black;
+  margin-bottom: 40px;
+  padding: 12px 18px;
+
+
+}
+#hobbies{
+  color: blue;
+  margin-top: 20px;
+}
+.hobby-list{
+  display: block;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  height: 100%;
+  margin-top: 20px;
+  
+
+}
+.hobby-card{  
+   color: blueviolet;
+    height: 100%;
+    
+}
+.hobby-tag{
+  border: 1.2px solid darkgoldenrod;
+  border-radius: 20px;
+  box-shadow: 0 2px rgb(135, 222, 136);
+  background-color: bisque;
+  font-size: large;
+  font-weight: 900;
+  padding: 10px 16px;
+ 
+}
+
+
+  
+
+  
