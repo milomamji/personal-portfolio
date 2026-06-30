@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: lightgreen;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.912);
+    
+}
+.navbar-container{
+       display:flex;
+       align-items:center;
+       justify-content:space-between;
+       max-width:1200px;
+       margin:0 auto;
+       padding:0 24px;
+       height:64px;
+  }
+.navbar-brand img{
+     height:40px;
+     width:40px;
+     border-radius:10px;
+     object-fit: cover;
+  }
+   .navbar-brand span{
+      color: darkgreen;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+  }
+  .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+  }
+   .nav-links li a{
+     text-decoration: none;
+     font-size: 0.95;
+      font-weight: 500;
+     padding: 8px 16px;
+     color: black;
+   }
+  
+     .nav-links li a:hover{
+    color: green;
+    border-bottom: 2px dotted green;
+     } 
+     .projects{
+    padding: 20px 40px;
+    text-align: center;
+    background-color: wheat;
+  }
+  .projects h2{
+    font-size: 28px;
+    color: darkgreen;
+    margin-bottom: 4px;
+  }
+  .projects p{
+    font-size: 20px;
+    color: darkgoldenrod;
+    margin-bottom: 6px;
+  }
+  .project-grid{
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr) ;
+    gap: 25px;
+    max-width: 1200px;
+    margin:0 auto;
+  }
+  .project-card{
+    background:purple;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 2px rgb(135, 141, 222);
+    max-height: 2000px;
+    margin-bottom:20px;
+  }
+  
+  .project-card:hover{
+      transform: translateY(-4px);
+  }
+  .project-info{
+    padding: 20px;
+  }
+  .project-card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+  .project-info h3{
+    font-size: 20px;
+    color: aquamarine;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  .project-info p{
+    font-size: 20px;
+    color: darkgoldenrod;
+    margin-bottom: 14px;
+    text-align: left;
+  }
+  .project-link{
+    display: inline-block;
+    background-color: transparent;
+    border: 1.5px solid aquamarine;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+  .project-link:hover{
+    background-color: darkgreen;
+  }
+  .footer{
+    background-color:yellowgreen;
+    color:white;
+    padding:48px 40px 24px;
+  }
+  .footer-inner{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    flex-wrap:wrap;
+    margin:0 auto 32px;
+    max-width:1000px;
+    align-items:flex-start;
+  }
+  .footer-brand h3{
+    color:darkgoldenrod;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+  .footer-brand p{
+    color:cyan;
+    font-size:16px;
+  }
+  .footer-links a{
+    display:block;
+    margin-bottom:10px;
+    text-decoration:none;
+    color:cyan;
+    font-size:16px;
+  }
+  .footer-links a:hover{
+    color:darkgoldenrod;
+    text-decoration:dotted;
+    transform:translateY(-4px)
+  }
+  .footer-socials-links{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+  }
+  .footer-socials-links img{
+    height:40px;
+    width:40px;
+  }
+  .footer-copy{
+    color:cyan;
+    font-size:16px;
+    text-align:center;
+  }
