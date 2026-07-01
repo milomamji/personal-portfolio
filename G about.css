@@ -7,11 +7,11 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
-    background-color: lightgreen;
+    background-color: #2ed52e;
     position: sticky;
     width: 100%;
     top: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.912);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
     
 }
 .navbar-container{
@@ -30,7 +30,7 @@ body{
      object-fit: cover;
   }
    .navbar-brand span{
-      color: darkgreen;
+      color: #45684a;
       font-size: 1.2rem;
       font-weight: 700;
       letter-spacing: 0.5px;
@@ -50,18 +50,18 @@ body{
    }
   
      .nav-links li a:hover{
-    color: green;
-    border-bottom: 2px dotted green;
+    color: #5d7b5b;
+    border-bottom: 2px dotted #5d7b5b;
      } 
      .about{
     padding: 15px 25px;
-    background-color:ghostwhite;
+    background-color:#f5f7f2;
   }
   .about-header{
     text-align: center;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color:green;
+    color:#5d7b5b;
     font-size: 35px;
     font-weight: 700;
   }
@@ -94,7 +94,7 @@ body{
   .about-right-col p{
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
-    color: darkgoldenrod;
+    color: #8b6f3f;
     line-height: 1;
     text-align: start;
     margin-top: 100px;
@@ -105,15 +105,16 @@ body{
     padding: 10px 16px;
     margin-top: 30px;
     border-radius: 10px;
-    background: cyan;
+    background: #5d7b5b;
+    color: white;
 
   }
   .about-right-col a:hover{
-    color: cyan;
-    background: darkgoldenrod;
+    color: white;
+    background: #8b6f3f;
   }
   .footer{
-    background-color:yellowgreen;
+    background-color:#7a8d73;
     color:white;
     padding:48px 40px 24px;
   }
@@ -127,23 +128,23 @@ body{
     align-items:flex-start;
   }
   .footer-brand h3{
-    color:darkgoldenrod;
+    color:#f4efe6;
     font-size:20px;
     margin-bottom:10px;
   }
   .footer-brand p{
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
   }
   .footer-links a{
     display:block;
     margin-bottom:10px;
     text-decoration:none;
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
   }
   .footer-links a:hover{
-    color:darkgoldenrod;
+    color:#f4efe6;
     text-decoration:dotted;
     transform:translateY(-4px)
   }
@@ -157,7 +158,7 @@ body{
     width:40px;
   }
   .footer-copy{
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
     text-align:center;
   }

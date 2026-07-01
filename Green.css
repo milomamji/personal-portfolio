@@ -7,11 +7,11 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
-    background-color: lightgreen;
+    background-color: #27a327;
     position: sticky;
     width: 100%;
     top: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.912);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
     
 }
 .navbar-container{
@@ -30,7 +30,7 @@ body{
      object-fit: cover;
   }
    .navbar-brand span{
-      color: darkgreen;
+      color: #45684a;
       font-size: 1.2rem;
       font-weight: 700;
       letter-spacing: 0.5px;
@@ -50,8 +50,8 @@ body{
    }
   
      .nav-links li a:hover{
-    color: green;
-    border-bottom: 2px dotted green;
+    color: #5d7b5b;
+    border-bottom: 2px dotted #5d7b5b;
      } 
      .hero-section{
     padding: 40px 80px;
@@ -71,8 +71,8 @@ body{
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #c084fc;
-    border: 1px solid rgba(31, 210, 37, 0.81);
+    color: #7a8d73;
+    border: 1px solid rgba(89, 121, 92, 0.35);
     border-radius: 20px;
     padding: 6px 16px;
     margin-bottom: 24px;
@@ -83,15 +83,15 @@ body{
     font-size: 50px;
     margin-bottom: 20px;
     line-height: 1;
-    color: darkgoldenrod;
+    color: #8b6f3f;
   }
   .hero-tittle span{
-    color: green;
+    color: #5b7b57;
   }
   .hero-subtittle{
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkgoldenrod;
+    color: #8b6f3f;
     line-height: 1.3;
     margin-bottom: 20px;
   }
@@ -101,25 +101,30 @@ body{
   }
   .hero-buttons a{
     text-decoration: none;
-    color: burlywood;
-    padding: 10px 16px;
-    border-radius: 8px;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 999px;
     font-size: 15px;
     font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .hero-buttons a:hover{
+    transform: translateY(-2px);
   }
   .btn-primary{
-    background: darkgreen;
-    color: aqua;
-    box-shadow: 0  8px  26px rgba(31, 82, 210, 0.81);
+    background: #5d7b5b;
+    color: white;
+    box-shadow: 0 8px 20px rgba(93, 123, 91, 0.2);
   }
   .btn-outline{
     background: transparent;
-    border: 1.5px solid darkgreen;
+    border: 1.5px solid #5d7b5b;
+    color: #5d7b5b;
   }
   .btn-outline:hover{
-    color: cyan;
-    border-color:cyan;
-    background:darkgoldenrod;
+    color: white;
+    border-color: #5d7b5b;
+    background: #5d7b5b;
   }
   .hero-image-column{
     flex: 1;
@@ -130,8 +135,8 @@ body{
     width: 340px;
     height: 340px;
     
-    border: 5px solid green;
-    box-shadow: 0 0 60px green;
+    border: 5px solid #7a8d73;
+    box-shadow: 0 0 40px rgba(122, 141, 115, 0.2);
     overflow: hidden;
   }
   .image-wrapper img{
@@ -147,7 +152,7 @@ body{
     text-align: center;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color:green;
+    color:#5d7b5b;
     font-size: 35px;
     font-weight: 700;
   }
@@ -180,7 +185,7 @@ body{
    .about-right-col p{
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
-    color: darkgoldenrod;
+    color: #8b6f3f;
     line-height: 1;
     text-align: start;
     margin-top: 100px;
@@ -191,26 +196,27 @@ body{
     padding: 10px 16px;
     margin-top: 30px;
     border-radius: 10px;
-    background: cyan;
+    background: #5d7b5b;
+    color: white;
 
   }
   .about-right-col a:hover{
-    color: cyan;
-    background: darkgoldenrod;
+    color: white;
+    background: #8b6f3f;
   }
   .projects{
     padding: 20px 40px;
     text-align: center;
-    background-color: lightgreen;
+    background-color: #e8f1e6;
   }
   .projects h2{
     font-size: 28px;
-    color: aquamarine;
+    color: #5d7b5b;
     margin-bottom: 4px;
   }
   .projects p{
     font-size: 20px;
-    color: darkgoldenrod;
+    color: #8b6f3f;
     margin-bottom: 6px;
   }
   .project-grid{
@@ -222,15 +228,15 @@ body{
   }
   .project-card{
     background: whitesmoke;
-    border-radius: 12px;
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 2px rgb(135, 141, 222);
-    max-height: 1000px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
   .project-card:hover{
-      color:blue;
       transform: translateY(-4px);
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
   }
   .project-info{
     padding: 20px;
@@ -243,30 +249,32 @@ body{
   }
   .project-info h3{
     font-size: 20px;
-    color: aquamarine;
+    color: #5d7b5b;
     margin-bottom: 8px;
     text-align: left;
   }
   .project-info p{
     font-size: 20px;
-    color: darkgoldenrod;
+    color: #8b6f3f;
     margin-bottom: 14px;
     text-align: left;
   }
   .project-link{
     display: inline-block;
     background-color: transparent;
-    border: 1.5px solid aquamarine;
+    border: 1.5px solid #8ea88f;
     padding: 8px 16px;
     text-align: left;
     text-decoration: none;
     border-radius: 12px;
+    color: #5d7b5b;
   }
   .project-link:hover{
-    background-color: darkgreen;
+    background-color: #dcefdc;
+    border-color: #5d7b5b;
   }
   .footer{
-    background-color:yellowgreen;
+    background-color:#7a8d73;
     color:white;
     padding:48px 40px 24px;
   }
@@ -280,23 +288,23 @@ body{
     align-items:flex-start;
   }
   .footer-brand h3{
-    color:darkgoldenrod;
+    color:#f4efe6;
     font-size:20px;
     margin-bottom:10px;
   }
   .footer-brand p{
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
   }
   .footer-links a{
     display:block;
     margin-bottom:10px;
     text-decoration:none;
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
   }
   .footer-links a:hover{
-    color:darkgoldenrod;
+    color:#f4efe6;
     text-decoration:dotted;
     transform:translateY(-4px)
   }
@@ -310,7 +318,7 @@ body{
     width:40px;
   }
   .footer-copy{
-    color:cyan;
+    color:#e8f1e6;
     font-size:16px;
     text-align:center;
   }
