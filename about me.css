@@ -1,8 +1,13 @@
-
+.about{
+  background-color: midnightblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
   .content{
     text-align: center;
-    color: black;
-    background-color: antiquewhite;
+    color: white;
+    background-color: midnightblue;
     padding: 0px;
   }
   .content p{
