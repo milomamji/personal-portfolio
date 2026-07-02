@@ -1,12 +1,12 @@
 :root {
-  --bg: #f5f7ff;
-  --surface: #ffffff;
-  --surface-soft: #f8f9ff;
-  --text: #111827;
-  --muted: #64748b;
-  --primary: #6d28d9;
-  --accent: #14b8a6;
-  --border: #e2e8f0;
+  --bg: #0f172a;
+  --surface: #111c2f;
+  --surface-soft: #17253b;
+  --text: #e6eef8;
+  --muted: #9eb0c9;
+  --primary: #5b7db3;
+  --accent: #7ec8e3;
+  --border: #233548;
 }
 
 * {
@@ -23,8 +23,8 @@ body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(109, 40, 217, 0.12), transparent 30%),
-    linear-gradient(135deg, #f8faff 0%, #f5f7ff 100%);
+    radial-gradient(circle at top left, rgba(91, 125, 179, 0.18), transparent 30%),
+    linear-gradient(135deg, #0b1220 0%, #142033 100%);
   line-height: 1.6;
 }
 
@@ -42,8 +42,8 @@ img {
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(14px);
-  background: rgba(255, 255, 255, 0.76);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(17, 28, 47, 0.82);
+  border-bottom: 1px solid rgba(126, 200, 227, 0.16);
 }
 
 .nav-container {
@@ -151,7 +151,7 @@ img {
 .contact-card .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white;
-  box-shadow: 0 12px 28px rgba(109, 40, 217, 0.22);
+  box-shadow: 0 10px 24px rgba(106, 90, 74, 0.18);
 }
 
 .btn-secondary {
@@ -193,10 +193,10 @@ img {
 
 .hero-card {
   position: relative;
-  background: linear-gradient(135deg, #ffffff, #f3f6ff);
+  background: linear-gradient(135deg, #17253b, #111c2f);
   padding: 16px;
   border-radius: 28px;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 18px 48px rgba(2, 8, 23, 0.28);
   border: 1px solid var(--border);
 }
 
@@ -350,12 +350,12 @@ img {
 }
 
 .contact-card {
-  background: linear-gradient(135deg, #111827, #312e81);
+  background: linear-gradient(135deg, #1d3557, #2f5d8a);
   color: white;
   padding: 34px;
   border-radius: 24px;
   text-align: center;
-  box-shadow: 0 20px 48px rgba(17, 24, 39, 0.18);
+  box-shadow: 0 18px 42px rgba(2, 8, 23, 0.25);
 }
 
 .contact-card p {
