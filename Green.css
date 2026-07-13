@@ -277,7 +277,11 @@ body{
     color: white;
   }
   .footer{
+<<<<<<< HEAD
     background-color:#0d1b2e;
+=======
+    background-color:midnightblue;
+>>>>>>> 47a654e (changed background color to midnight blue)
     color:white;
     padding:48px 40px 24px;
   }
